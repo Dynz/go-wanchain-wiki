@@ -1,4 +1,4 @@
-# Wanchain_Command_Line_Wallet
+# How to use Wanchain Command Line Wallet
 
 ## How to use Wanchain Command Line Wallet
 
@@ -15,9 +15,9 @@
 
 ### Install node packages
     $ git clone https://github.com/wanchain/Wanchain_Command_Line_Wallet.git
-    $ cd Wanchain_Command_Line_Wallet 
+    $ cd Wanchain_Command_Line_Wallet
     $ npm install
-    
+
 ### Select Wanchain network
 - Run `geth.exe` with network parameter
 - Modify `wanchainNet` value in config.js
@@ -25,10 +25,10 @@
 
 ### If you want fetch OTAs, please run the following command based on your OS env to Scan OTAs in new terminal first.
 #### run in windows x64
-    $ cd backend 
+    $ cd backend
     $ node wanChainBlockScan.js
 #### run in linux or mac
-    $ cd backend 
+    $ cd backend
     $ node wanChainBlockScan.js
 
 ### run Wanchain Command Line Wallet in src dir
@@ -36,14 +36,14 @@
     $ cd src
 
 ### Executing commands
-#### Run each `*.js` file as `node *.js or node <filename> without .js` in command line. 
+#### Run each `*.js` file as `node *.js or node <filename> without .js` in command line.
 #### For example,
 
     $ node createKeystore.js
     or
     $ node createKeystore
 
-Supports command line input parameters and default input parameter 'Q' or 'q' to exit the process. 
+Supports command line input parameters and default input parameter 'Q' or 'q' to exit the process.
 
 ### List of supported commands
 
